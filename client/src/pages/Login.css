@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.login-form {
+  box-shadow: 0 0 3px black;
+  width: 400px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10vh;
+  padding-top: 10px;
+  padding-bottom: 30px;
+  flex-direction: column;
+}
+.login-form > form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+form > input {
+  margin-bottom: 10px;
+  width: 300px;
+  height: 30px;
+}
+form > button {
+  width: 300px;
+  height: 30px;
+  background-color: royalblue;
+  color: white;
+  font-size: 1.1em;
+  margin-bottom: 10px;
+}
+::placeholder {
+  text-align: center;
+  font-size: 1.1em;
+  font-weight: bolder;
+  text-transform: capitalize;
+}
+.title > p {
+  font-size: 1em;
+  color: white;
+  border: 1px solid red;
+  width: 300px;
+  height: 35px;
+  text-align: center;
+  padding: 5px 0;
+  background-color: red;
+}

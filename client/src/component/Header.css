@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.header {
+  border: 3px solid black;
+  height: 50px;
+  padding: 10px;
+}
+.header_contente {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 100px;
+  margin-left: 100px;
+}
+.avatar {
+  display: flex;
+  align-items: center;
+  margin-top: -5px;
+}
+.avatar > img {
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  background-color: blueviolet;
+  color: white;
+  text-align: center;
+}
+.avatar > span {
+  margin-left: 10px;
+}
